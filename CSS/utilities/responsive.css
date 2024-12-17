@@ -196,7 +196,7 @@
     #about-me-left {
         width: 100%;
         align-items: center;
-        text-align: justify;
+        /* text-align: justify; */
     }
 
     .bio-sub-title {
