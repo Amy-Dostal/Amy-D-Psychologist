@@ -1,0 +1,112 @@
+
+/* ALL TYPOGRAPHY STYLING*/
+
+/* SECTION TITLES */
+
+.section-title {
+    color: var(--green);
+    font-family: "IBM Plex Serif", serif;
+    font-weight: var(--font-weight-medium);
+}
+
+/* PARAGRAPHS */
+
+.para-text {
+    line-height: 25px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: var(-font-weight-regular);
+}
+
+/* LOCATION TAG (ABOUT ME) */
+
+#location-tag-text {
+    margin-top: 5px;
+}
+
+/* BOOKING STATUS (NOTIFICATION) */
+
+#booking-status {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    color: var(--green);
+}
+
+/* LIST ITEMS (AREAS OF INTEREST) */
+
+#areas-of-interest-list {
+    text-align: center;
+    line-height: 40px;
+    list-style: none;
+}
+
+/* INATKE FORM AREA TITLE & INFO */
+
+.intake-title {
+    color: var(--charcoal);
+    font-family: "IBM Plex Serif", serif;
+    font-weight: var(--font-weight-medium);
+}
+
+.intake-info {
+    line-height: 25px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: var(-font-weight-regular);
+    color: var(--charcoal);
+}
+
+#sub-text {
+    font-weight: 580;
+}
+
+#fine-print {
+    width: 600px;
+    text-align: center;
+
+    color: grey;
+    font-size: 13px;
+}
+
+/* GENERAL ENQURIES FORM */
+
+#contact-info {
+    padding-top: 15px;
+    width: 40%;
+    font-size: 16px;
+    color: rgb(98, 98, 98);
+}
+
+.input-box::placeholder {
+    color: #dbdbdb;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: var(-font-weight-regular);
+}
+
+#input-message {
+    height: 140px;
+    resize: none;
+    font-size: 16px;
+}
+
+#input-message::placeholder {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: var(-font-weight-regular);
+}
+
+.input-wrapper p {
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    color: var(--charcoal);
+}
+
+/* LOCATION SECTION TEXT */
+
+#location-text {
+    color: var(--charcoal);
+}
+
+/* SORT */
+
+.bio-sub-title {
+    font-weight: bold;
+    color: var(--charcoal);
+}

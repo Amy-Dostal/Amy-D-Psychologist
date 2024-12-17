@@ -1,0 +1,128 @@
+/* HOME PAGE STYLING */
+
+/* ABOUT ME SECTION */
+
+#about-me-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 44px;
+}
+
+#profile-img {
+    width: 350px;
+    padding: 4px;
+    border: solid 3px var(--light-grey);
+    box-shadow: 15px 15px 30px #5d5d5d21;
+}
+
+#about-me-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* text-align: justify; */
+}
+
+#creds-1 {
+    display: none;
+}
+
+#creds-2 {
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+#about-me-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 20px;
+}
+
+.location-tag-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    color: var(--grey);
+}
+
+#location-pin-img {
+    width: 40px;
+}
+
+/* AREAS OF INTEREST SECTION */
+
+#areas-of-interest-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aoi-list-item {
+    width: 550px;
+    border-radius: 10px;
+    transition: font-weight 0.1s ease,
+                box-shadow 0.1s ease,
+                text-decoration 0.1s ease;
+    cursor: pointer;
+}
+
+/* .aoi-list-item:hover {
+    font-weight: var(--font-weight-bold);
+    box-shadow: 0px 5px 10px var(--box-shadow1);
+    text-decoration: underline;
+} */
+
+/* CONTACT ME SECTION */
+
+/* INTAKE FORM AREA */
+
+.intake-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+/* .intake-info-2 {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--grey);
+} */
+
+.star-wrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.star-green {
+    width: 12px;
+}
+
+
+/* LOCATION SECTION */
+
+#location-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+#map-iframe {
+    width: 100%;
+    height: 500px;
+
+    border: solid 1px var(--light-grey);
+    box-shadow: 15px 15px 30px #5d5d5d21;
+}
+
+

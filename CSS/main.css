@@ -1,0 +1,22 @@
+
+/* Imported css files */
+/* Base */
+@import url(./base/reset.css);
+@import url(./base/typography.css);
+@import url(./base/variables.css);
+
+/* Components */
+@import url(./components/buttons.css);
+@import url(./components/cards.css);
+@import url(./components/forms.css);
+
+/* Layout */
+@import url(./layout/header.css);
+@import url(./layout/main-body.css);
+@import url(./layout/footer.css);
+
+/* Pages */
+@import url(./pages/home.css);
+
+/* Utilities */
+@import url(./utilities/responsive.css);

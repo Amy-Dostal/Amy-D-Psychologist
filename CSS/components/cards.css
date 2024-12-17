@@ -1,0 +1,72 @@
+/* Shadow effects */
+/* POPUP  */
+
+.pop-up-wrapper .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #0000004f;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    display: none;
+}
+
+.pop-up-wrapper .pop-up-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: var(--pane-color2);
+    backdrop-filter: blur(30px);
+    box-shadow: 15px 15px 30px #5d5d5d21;
+    width: 690px;
+    height: 95%;
+    z-index: 2;
+    padding: 40px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.pop-up-wrapper .close-button {
+    position: fixed;
+    right: 25px;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pop-up-wrapper.active .overlay {
+    display: block;
+}
+
+.pop-up-wrapper.active .pop-up-content {
+    transition:all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+/* OTHER */
+.priv-list {
+    padding-left: 50px;
+}
+
+.priv-list2 {
+    list-style: lower-alpha;
+    padding-left: 60px;
+}
+
+.priv-title {
+    line-height: 40px;
+}
+
+.priv-bold {
+    font-weight: bold;
+}
+
+.priv-fine {
+    font-style: italic;
+    font-size: 15px;
+}
+

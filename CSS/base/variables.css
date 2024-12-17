@@ -1,0 +1,40 @@
+
+/* Variables for the entire site / organised alphabetically */
+
+:root {
+
+    /* Global Colours */
+    --black: black;
+    --charcoal: #515151;
+    --green: #B5C18E;
+    /* --green: #94a55c; */
+    --green-lighter: #d7dcc8;
+    --grey: #808080;
+    --light-grey: #a2a2a2;
+    --lightest-grey: #c3c2c2;
+    --orange: #ff9500;
+
+    /* Components */
+    --pane-color1: #fcfbf8cd;
+    --pane-color2: #ffffffdb;
+    --pane-color3: #ffffff7d;
+
+    /* Text Colours */
+    --para-txt-col1: #161616;
+    --para-txt-col2: #8D8D8D;
+    --title-txt-col1: #B5C18E;
+
+    /* Font Globals */
+    /* Font Sizes */
+    /* Font weight */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Section Globals */
+    --section-width: 770px;
+
+    /* Box Shadow Colour */
+    --box-shadow1: #e4e4e4;
+}

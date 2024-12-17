@@ -1,0 +1,63 @@
+/* ALL BUTTONS STYLING */
+
+/* NAV-BUTTONS STYLING */
+
+.nav-button {
+    border: none;
+
+    background-color: none;
+    text-decoration: none;
+    color: var(--lightest-grey);
+
+    transition: color 0.15s ease-in-out, 
+                scale 0.15s ease-in-out;
+}
+
+.nav-button:hover {
+    color: var(--light-grey);
+    scale: 1.05;
+}
+
+/* INATKE FORM BUTTON */
+
+.intake-button {
+    padding: 10px;
+    width: 190px;
+    border-radius: 5px;
+    background-color: #ffffff00;
+    border: solid 1px var(--grey);
+    font-size: 14px;
+    transition: background-color 0.15s ease-in-out,
+                font-weight 0.15s ease-in-out,
+                color 0.15s ease-in-out,
+                scale 0.15s ease-in-out,
+                border 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.intake-button:hover {
+    background-color: var(--green);
+    color: white;
+    border: solid 1px var(--green);
+    scale: 1.05;
+}
+
+/* GENERAL ENQUIRY FORM SUBMIT BUTTON */
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: var(--green-lighter);
+    border: solid 1px var(--grey);
+    font-size: 14px;
+    transition: background-color 0.15s ease-in-out,
+                font-weight 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: white;
+    font-weight: var(--font-weight-bold);
+}

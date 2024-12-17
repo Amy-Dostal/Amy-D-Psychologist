@@ -1,0 +1,52 @@
+/* GENERAL ENQURIES FORM LAYOUT/STYLING */
+
+#contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    height: 520px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 40px;
+    background-color: var(--green-lighter);
+    box-shadow: 15px 15px 30px #5d5d5d21;
+}
+
+/* GENERAL ENQURIES FORM CONTENT */
+
+#form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+}
+
+.input-box {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+

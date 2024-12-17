@@ -1,0 +1,20 @@
+/* Footer Styling */
+
+#nav-footer {
+    margin-top: 45px;
+    color: black;
+}
+
+#nav-footer a {
+    color: var(--grey);
+    /* background-color: var(--charcoal); */
+}
+
+/* Last footer */
+
+#copyright {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--light-grey);
+    font-size: 15px;
+}
