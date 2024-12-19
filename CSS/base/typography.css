@@ -110,3 +110,9 @@
     font-weight: bold;
     color: var(--charcoal);
 }
+
+/* QUALIFICATION TITLES */
+
+#qualifcation-title {
+    font-weight: 600;
+}
