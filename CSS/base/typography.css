@@ -52,6 +52,7 @@
     font-family: "IBM Plex Serif", serif;
     font-weight: var(-font-weight-regular);
     color: var(--charcoal);
+    text-align: center;
 }
 
 #sub-text {
