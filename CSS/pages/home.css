@@ -17,10 +17,9 @@
 }
 
 #about-me-left {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 100%;
-    /* text-align: justify; */
+    line-height: 1.6;
 }
 
 #creds-1 {
@@ -126,5 +125,4 @@
     border: solid 1px var(--light-grey);
     box-shadow: 15px 15px 30px #5d5d5d21;
 }
-
 
