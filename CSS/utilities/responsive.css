@@ -60,6 +60,12 @@
         box-shadow: 15px 15px 30px #5d5d5d21;
     } 
 
+    /* Ensure background image fills viewport height on mobile */
+    #background-img {
+        width: auto;
+        height: 100vh;
+    }
+
     #loc-tag-wrap-top {
         display: flex;
         flex-direction: row;
