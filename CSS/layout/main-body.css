@@ -13,9 +13,13 @@ body {
 
 #background-img {
     position: fixed;
-    size: cover;
-    height: 110vh;
-    opacity: 0.15;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* maintain aspect ratio, fill viewport */
+    object-position: center center;
+    opacity: 0.2;
 }
 
 /* BODY FOREGROUND LAYOUT*/
