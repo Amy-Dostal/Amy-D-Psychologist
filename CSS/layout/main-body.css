@@ -13,13 +13,9 @@ body {
 
 #background-img {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover; /* maintain aspect ratio, fill viewport */
-    object-position: center center;
-    opacity: 0.2;
+    height: 140%;
+    width: auto;
+    opacity: 0.1;
 }
 
 /* BODY FOREGROUND LAYOUT*/
@@ -36,6 +32,14 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 15px 15px 30px #5d5d5d21;
 } 
+
+/* Switch priority to height on portrait/square viewports */
+@media (max-aspect-ratio: 1/1) {
+    #background-img {
+        width: auto;
+        height: 100vh;
+    }
+}
 
 /* SECTION TITLE LAYOUT/STYLING */
 

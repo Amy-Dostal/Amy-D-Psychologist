@@ -4,11 +4,6 @@
 /* MOBILE SMALL */
 
 @media screen and (min-width: 220px) and (max-width: 768px) {
-    /* Keep background image centered and sized correctly on mobile */
-    #background-img {
-        height: 100dvh; /* dynamic viewport height to avoid address bar jumps */
-        object-position: center center;
-    }
 
     .header-wrapper {
         display: flex;
